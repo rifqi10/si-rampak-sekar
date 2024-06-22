@@ -9,8 +9,6 @@
     <!-- Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="tailwind.config.js" rel="stylesheet">
-
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
@@ -146,34 +144,126 @@
             </div>
             <div class="md:w-1/2 md:pl-8">
                 <h2 class="text-2xl font-bold mb-2">Perencanaan dan Penganggaran</h2>
-                <p class="mb-4">Portal pengelolaan keuangan yang dirilis oleh Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses perencanaan dan penganggaran sampai ke pelaporan keuangan.</p>
-                <a href="#" class="text-green-600 font-semibold flex items-center">Akses aplikasi <i class="fas fa-arrow-right ml-2"></i></a>
-            </div>
-        </div>
+                <div
+                    class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                    <ul class="flex flex-wrap -mb-px">
+                        <li class="me-2">
+                            <a href="#"
+                                class="tab-link inline-block p-4 font-bold text-green-600 border-b-2 border-green-600 rounded-t-lg active dark:text-green-500 dark:border-green-500"
+                                data-tab="sipd" aria-current="page">SIPD</a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#"
+                                class="tab-link inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                                data-tab="sipd-ri">SIPD RI</a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#"
+                                class="tab-link inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                                data-tab="penapisan">Penapisan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="sipd" class="tab-content">
+                    <div class="flex flex-row items-center">
+                        <div class="w-1/2">
+                            <img src="{{ asset('img/SIPD.png') }}" alt="SIPD" class="h-auto max-w-full md:max-w-lg">
+                        </div>
+                        <div>
+                            <p>
+                                Portal pengelolaan keuangan yang dirilis oleh Kementerian Dalam Negeri dan Pemerintah
+                                Provinsi Jawa Barat untuk menghimpun proses perencanaan dan penganggaran sampai ke
+                                pelaporan keuangan.
+                            </p>
 
-        <!-- Pengelolaan Keuangan Section -->
-        <div class="flex flex-col md:flex-row items-center mb-8">
-            <div class="md:w-1/2 order-last md:order-first md:pr-8">
-                <h2 class="text-2xl font-bold mb-2">Pengelolaan Keuangan</h2>
-                <p class="mb-4">SIPD (Sistem Informasi Pemerintahan Daerah) adalah aplikasi yang dirilis oleh Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses pengelolaan keuangan perangkat daerah dimulai dari perencanaan dan penganggaran sampai ke pelaporan keuangan.</p>
-                <a href="#" class="text-green-600 font-semibold flex items-center">Masuk platform <i class="fas fa-arrow-right ml-2"></i></a>
-            </div>
-            <div class="md:w-1/2">
-                <img src="{{ asset('img/monitoring.png') }}" alt="Pengelolaan Keuangan" class="w-full h-auto">
-            </div>
-        </div>
+                            <a href="#" class="text-green-600 font-semibold flex items-center">Akses Aplikasi <i
+                                    class="fas fa-arrow-right ml-2">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sipd-ri" class="tab-content hidden">
+                    <div class="flex flex-row items-center">
+                        <div class="w-1/2">
+                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI"
+                                class="h-auto max-w-full md:max-w-lg">
+                        </div>
+                        <div>
+                            <p>
+                                Aplikasi nasional yang dikembangkan untuk membantu pemerintah daerah di Indonesia dalam
+                                mengelola keuangan daerah,
+                                seperti pengelolaan anggaran, pencatatan penerimaan dan pengeluaran keuangan,
+                                serta pelaporan keuangan.
+                            </p>
 
-        <!-- Monitoring Evaluasi dan Pengendalian Section -->
-        <div class="flex flex-col md:flex-row items-center mb-8">
-            <div class="md:w-1/2">
-                <img src="{{ asset('img/pengelolaan.png') }}" alt="Monitoring Evaluasi dan Pengendalian" class="w-full h-auto">
-            </div>
-            <div class="md:w-1/2 md:pl-8">
-                <h2 class="text-2xl font-bold mb-2">Monitoring Evaluasi dan Pengendalian</h2>
-                <p class="mb-4">e-Monev adalah instrumen elektronik untuk mengendalikan dan mengevaluasi rencana pembangunan Provinsi Jawa Barat secara real-time. Diterapkan di seluruh perangkat daerah, e-Monev membantu memastikan program yang efisien, penggunaan anggaran yang tepat, dan pengambilan keputusan strategis berdasarkan data yang akurat.</p>
-                <a href="#" class="text-green-600 font-semibold flex items-center">Mulai akses <i class="fas fa-arrow-right ml-2"></i></a>
+                            <a href="#" class="text-green-600 font-semibold flex items-center">Masuk Platform
+                                <i class="fas fa-arrow-right ml-2">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="penapisan" class="tab-content hidden">
+                    <div class="flex flex-row items-center">
+                        <div class="w-1/2">
+                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI"
+                                class="h-auto max-w-full md:max-w-lg">
+                        </div>
+                        <div>
+                            <p class="mb-4">
+                                Portal pendukung keputusan yang memberikan pertimbangan kepada pembuat kebijakan
+                                perencanaan
+                                dan anggaran untuk menentukan prioritas program, bantuan keuangan, dan pagu belanja,
+                                berdasarkan data dan informasi yang tersedia.
+                            </p>
+
+                            <a href="#"
+                                class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                                Buka Portal
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Pengelolaan Keuangan Section -->
+    <div class="flex flex-col md:flex-row items-center mb-8">
+        <div class="md:w-1/2 order-last md:order-first md:pr-8">
+            <h2 class="text-2xl font-bold mb-2">Pengelolaan Keuangan</h2>
+            <p class="mb-4">SIPD (Sistem Informasi Pemerintahan Daerah) adalah aplikasi yang dirilis oleh
+                Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses pengelolaan
+                keuangan perangkat daerah dimulai dari perencanaan dan penganggaran sampai ke pelaporan keuangan.
+            </p>
+            <a href="#" class="text-green-600 font-semibold flex items-center">Masuk platform <i
+                    class="fas fa-arrow-right ml-2"></i></a>
+        </div>
+        <div class="md:w-1/2">
+            <img src="{{ asset('img/monitoring.png') }}" alt="Pengelolaan Keuangan" class="w-full h-auto">
+        </div>
+    </div>
+
+    <!-- Monitoring Evaluasi dan Pengendalian Section -->
+    <div class="flex flex-col md:flex-row items-center mb-8">
+        <div class="md:w-1/2">
+            <img src="{{ asset('img/pengelolaan.png') }}" alt="Monitoring Evaluasi dan Pengendalian"
+                class="w-full h-auto">
+        </div>
+        <div class="md:w-1/2 md:pl-8">
+            <h2 class="text-2xl font-bold mb-2">Monitoring Evaluasi dan Pengendalian</h2>
+            <p class="mb-4">e-Monev adalah instrumen elektronik untuk mengendalikan dan mengevaluasi rencana
+                pembangunan Provinsi Jawa Barat secara real-time. Diterapkan di seluruh perangkat daerah, e-Monev
+                membantu memastikan program yang efisien, penggunaan anggaran yang tepat, dan pengambilan keputusan
+                strategis berdasarkan data yang akurat.</p>
+            <a href="#" class="text-green-600 font-semibold flex items-center">Mulai akses <i
+                    class="fas fa-arrow-right ml-2"></i></a>
+        </div>
+    </div>
     </div>
 
 
@@ -181,12 +271,13 @@
     <!-- Footer Section -->
     <footer class="bg-green-800 text-white py-8">
         <div class="container mx-auto text-center">
-        <div class="flex items-center justify-center">
-        <img src="{{ asset('img/logo_footer.png') }}" alt="Logo_footer" class="h-12">
-            <span class="text-lg font-semibold">SI RAMPAK SEKAR</span>
-        </div>
+            <div class="flex items-center justify-center">
+                <img src="{{ asset('img/logo_footer.png') }}" alt="Logo_footer" class="h-12">
+                <span class="text-lg font-semibold">SI RAMPAK SEKAR</span>
+            </div>
             <div class="flex flex-col items-center">
-                <p class="text-sm">Jabar Command Center (Gedung Setda B Lt. II) Jalan Diponegoro Nomor 22 Bandung Jawa Barat 40115</p>
+                <p class="text-sm">Jabar Command Center (Gedung Setda B Lt. II) Jalan Diponegoro Nomor 22 Bandung Jawa
+                    Barat 40115</p>
                 <div class="flex space-x-4 mt-4">
                     <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-facebook"></i></a>
