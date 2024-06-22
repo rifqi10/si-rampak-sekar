@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="{{ asset('css/home_page.css') }}">
     <!-- Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="tailwind.config.js" rel="stylesheet">
+
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body class="bg-white">
-    
+
     <!-- Header Section -->
     <header class="flex items-center justify-between p-4 bg-[#F5F7FA] shadow-md">
         <div class="flex items-center space-x-2">
@@ -41,7 +44,8 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider1.png') }}" alt="Slide 1" class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider1.png') }}" alt="Slide 1"
+                            class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -54,7 +58,8 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider2.png') }}" alt="Slide 2" class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider2.png') }}" alt="Slide 2"
+                            class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -67,7 +72,8 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider3.png') }}" alt="Slide 3" class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider3.png') }}" alt="Slide 3"
+                            class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -77,13 +83,16 @@
 
     <!-- New Section -->
     <p class="h-16 mt-2 overflow-hidden text-center text-gray-600 line-clamp-3">
-        Menyatukan sistem perencanaan dan penganggaran, monitoring dan evaluasi, serta pengelolaan keuangan, baik di level provinsi maupun kabupaten/kota dalam satu portal.
+        Menyatukan sistem perencanaan dan penganggaran, monitoring dan evaluasi, serta pengelolaan keuangan, baik di
+        level provinsi maupun kabupaten/kota dalam satu portal.
     </p>
     <div class="flex flex-wrap py-8 bg-white">
         <div class="w-full px-4 pt-6 text-center md:w-4/12">
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
-                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white bg-red-400 rounded-full shadow-lg">
+                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
+                        <img src="{{ asset('img/perencanaan.png') }}" alt="perencanaan"
+                            class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-award"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Perencanaan dan Penganggaran Komprehensif</h6>
@@ -96,12 +105,15 @@
         <div class="w-full px-4 pt-6 text-center md:w-4/12">
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
-                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white bg-blue-400 rounded-full shadow-lg">
+                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
+                        <img src="{{ asset('img/regularitas.png') }}" alt="regularitas"
+                            class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-retweet"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Regularitas Pengelolaan Keuangan</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                        Transparansi dan akuntabilitas dalam pengelolaan keuangan, membangun kepercayaan publik terhadap pemerintah.
+                        Transparansi dan akuntabilitas dalam pengelolaan keuangan, membangun kepercayaan publik terhadap
+                        pemerintah.
                     </p>
                 </div>
             </div>
@@ -109,12 +121,15 @@
         <div class="w-full px-4 pt-6 text-center md:w-4/12">
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
-                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white bg-green-400 rounded-full shadow-lg">
+                    <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
+                        <img src="{{ asset('img/optimalisasi.png') }}" alt="optimalisasi"
+                            class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-fingerprint"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Optimalisasi Monitoring Evaluasi dan Pengendalian</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                        Efisiensi pemantauan kinerja program dan kegiatan, memastikan penggunaan anggaran yang tepat sasaran.
+                        Efisiensi pemantauan kinerja program dan kegiatan, memastikan penggunaan anggaran yang tepat
+                        sasaran.
                     </p>
                 </div>
             </div>
@@ -122,6 +137,25 @@
     </div>
 
     <!-- Footer Section -->
+    <footer class="bg-green-800 text-white py-8">
+        <div class="container mx-auto text-center">
+        <div class="flex items-center justify-center">
+        <img src="{{ asset('img/logo_footer.png') }}" alt="Logo_footer" class="h-12">
+            <span class="text-lg font-semibold">SI RAMPAK SEKAR</span>
+        </div>
+            <div class="flex flex-col items-center">
+                <p class="text-sm">Jabar Command Center (Gedung Setda B Lt. II) Jalan Diponegoro Nomor 22 Bandung Jawa Barat 40115</p>
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <p class="mt-8 text-sm">Copyright © Pemerintah Provinsi Jawa Barat. All rights reserved</p>
+        </div>
+    </footer>
 
     <!-- Including JavaScript file -->
     <script src="{{ asset('js/home_page.js') }}"></script>
