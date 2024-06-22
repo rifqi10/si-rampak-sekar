@@ -136,6 +136,48 @@
         </div>
     </div>
 
+
+    <!-- Additional Sections -->
+    <div class="container mx-auto px-4 py-8">
+        <!-- Perencanaan dan Penganggaran Section -->
+        <div class="flex flex-col md:flex-row items-center mb-8">
+            <div class="md:w-1/2">
+                <img src="{{ asset('img/pnp.png') }}" alt="Perencanaan dan Penganggaran" class="w-full h-auto">
+            </div>
+            <div class="md:w-1/2 md:pl-8">
+                <h2 class="text-2xl font-bold mb-2">Perencanaan dan Penganggaran</h2>
+                <p class="mb-4">Portal pengelolaan keuangan yang dirilis oleh Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses perencanaan dan penganggaran sampai ke pelaporan keuangan.</p>
+                <a href="#" class="text-green-600 font-semibold flex items-center">Akses aplikasi <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+        </div>
+
+        <!-- Pengelolaan Keuangan Section -->
+        <div class="flex flex-col md:flex-row items-center mb-8">
+            <div class="md:w-1/2 order-last md:order-first md:pr-8">
+                <h2 class="text-2xl font-bold mb-2">Pengelolaan Keuangan</h2>
+                <p class="mb-4">SIPD (Sistem Informasi Pemerintahan Daerah) adalah aplikasi yang dirilis oleh Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses pengelolaan keuangan perangkat daerah dimulai dari perencanaan dan penganggaran sampai ke pelaporan keuangan.</p>
+                <a href="#" class="text-green-600 font-semibold flex items-center">Masuk platform <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="{{ asset('img/monitoring.png') }}" alt="Pengelolaan Keuangan" class="w-full h-auto">
+            </div>
+        </div>
+
+        <!-- Monitoring Evaluasi dan Pengendalian Section -->
+        <div class="flex flex-col md:flex-row items-center mb-8">
+            <div class="md:w-1/2">
+                <img src="{{ asset('img/pengelolaan.png') }}" alt="Monitoring Evaluasi dan Pengendalian" class="w-full h-auto">
+            </div>
+            <div class="md:w-1/2 md:pl-8">
+                <h2 class="text-2xl font-bold mb-2">Monitoring Evaluasi dan Pengendalian</h2>
+                <p class="mb-4">e-Monev adalah instrumen elektronik untuk mengendalikan dan mengevaluasi rencana pembangunan Provinsi Jawa Barat secara real-time. Diterapkan di seluruh perangkat daerah, e-Monev membantu memastikan program yang efisien, penggunaan anggaran yang tepat, dan pengambilan keputusan strategis berdasarkan data yang akurat.</p>
+                <a href="#" class="text-green-600 font-semibold flex items-center">Mulai akses <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Footer Section -->
     <footer class="bg-green-800 text-white py-8">
         <div class="container mx-auto text-center">
