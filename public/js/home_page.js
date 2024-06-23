@@ -33,3 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// read more
+document.querySelectorAll('.read-more').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('Read More clicked!');
+    });
+});
+

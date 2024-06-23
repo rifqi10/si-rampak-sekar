@@ -29,7 +29,6 @@
     </header>
 
     <!-- Main Content Section -->
-
     <!-- swiper-slide -->
     <div class="my-8 swiper-container bg-[#F5F7FA]">
         <div class="swiper-wrapper">
@@ -42,8 +41,7 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider1.png') }}" alt="Slide 1"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider1.png') }}" alt="Slide 1" class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -56,8 +54,7 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider2.png') }}" alt="Slide 2"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider2.png') }}" alt="Slide 2" class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -70,8 +67,7 @@
                             Barat yang terencana, terukur, dan akuntabel.</p>
                     </div>
                     <div class="p-4 md:w-1/2">
-                        <img src="{{ asset('img/gambar_slider3.png') }}" alt="Slide 3"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/gambar_slider3.png') }}" alt="Slide 3" class="h-auto max-w-full md:max-w-lg">
                     </div>
                 </div>
             </div>
@@ -79,7 +75,7 @@
         <div class="swiper-pagination"></div>
     </div>
 
-    <!-- New Section -->
+    <!--Card-->
     <p class="h-16 mt-2 overflow-hidden text-center text-gray-600 line-clamp-3">
         Menyatukan sistem perencanaan dan penganggaran, monitoring dan evaluasi, serta pengelolaan keuangan, baik di
         level provinsi maupun kabupaten/kota dalam satu portal.
@@ -89,8 +85,7 @@
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
                     <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
-                        <img src="{{ asset('img/perencanaan.png') }}" alt="perencanaan"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/perencanaan.png') }}" alt="perencanaan" class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-award"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Perencanaan dan Penganggaran Komprehensif</h6>
@@ -104,8 +99,7 @@
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
                     <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
-                        <img src="{{ asset('img/regularitas.png') }}" alt="regularitas"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/regularitas.png') }}" alt="regularitas" class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-retweet"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Regularitas Pengelolaan Keuangan</h6>
@@ -120,8 +114,7 @@
             <div class="relative flex flex-col w-full h-full mb-8 bg-white rounded-lg shadow-lg">
                 <div class="flex-auto px-4 py-5">
                     <div class="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white">
-                        <img src="{{ asset('img/optimalisasi.png') }}" alt="optimalisasi"
-                            class="h-auto max-w-full md:max-w-lg">
+                        <img src="{{ asset('img/optimalisasi.png') }}" alt="optimalisasi" class="h-auto max-w-full md:max-w-lg">
                         <i class="fas fa-fingerprint"></i>
                     </div>
                     <h6 class="text-xl font-semibold">Optimalisasi Monitoring Evaluasi dan Pengendalian</h6>
@@ -134,33 +127,25 @@
         </div>
     </div>
 
-
     <!-- Additional Sections -->
-    <div class="container mx-auto px-4 py-8">
+    <div class="container px-4 py-8 mx-auto">
         <!-- Perencanaan dan Penganggaran Section -->
-        <div class="flex flex-col md:flex-row items-center mb-8">
+        <div class="flex flex-col items-center mb-8 md:flex-row">
             <div class="md:w-1/2">
                 <img src="{{ asset('img/pnp.png') }}" alt="Perencanaan dan Penganggaran" class="w-full h-auto">
             </div>
             <div class="md:w-1/2 md:pl-8">
-                <h2 class="text-2xl font-bold mb-2">Perencanaan dan Penganggaran</h2>
-                <div
-                    class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                <h2 class="mb-2 text-2xl font-bold">Perencanaan dan Penganggaran</h2>
+                <div class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
                     <ul class="flex flex-wrap -mb-px">
                         <li class="me-2">
-                            <a href="#"
-                                class="tab-link inline-block p-4 font-bold text-green-600 border-b-2 border-green-600 rounded-t-lg active dark:text-green-500 dark:border-green-500"
-                                data-tab="sipd" aria-current="page">SIPD</a>
+                            <a href="#" class="inline-block p-4 font-bold text-green-600 border-b-2 border-green-600 rounded-t-lg tab-link active dark:text-green-500 dark:border-green-500" data-tab="sipd" aria-current="page">SIPD</a>
                         </li>
                         <li class="me-2">
-                            <a href="#"
-                                class="tab-link inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                                data-tab="sipd-ri">SIPD RI</a>
+                            <a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg tab-link hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" data-tab="sipd-ri">SIPD RI</a>
                         </li>
                         <li class="me-2">
-                            <a href="#"
-                                class="tab-link inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                                data-tab="penapisan">Penapisan</a>
+                            <a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg tab-link hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" data-tab="penapisan">Penapisan</a>
                         </li>
                     </ul>
                 </div>
@@ -176,18 +161,16 @@
                                 pelaporan keuangan.
                             </p>
 
-                            <a href="#" class="text-green-600 font-semibold flex items-center">Akses Aplikasi <i
-                                    class="fas fa-arrow-right ml-2">
+                            <a href="#" class="flex items-center font-semibold text-green-600">Akses Aplikasi <i class="ml-2 fas fa-arrow-right">
                                 </i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div id="sipd-ri" class="tab-content hidden">
+                <div id="sipd-ri" class="hidden tab-content">
                     <div class="flex flex-row items-center">
                         <div class="w-1/2">
-                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI"
-                                class="h-auto max-w-full md:max-w-lg">
+                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI" class="h-auto max-w-full md:max-w-lg">
                         </div>
                         <div>
                             <p>
@@ -197,18 +180,17 @@
                                 serta pelaporan keuangan.
                             </p>
 
-                            <a href="#" class="text-green-600 font-semibold flex items-center">Masuk Platform
-                                <i class="fas fa-arrow-right ml-2">
+                            <a href="#" class="flex items-center font-semibold text-green-600">Masuk Platform
+                                <i class="ml-2 fas fa-arrow-right">
                                 </i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div id="penapisan" class="tab-content hidden">
+                <div id="penapisan" class="hidden tab-content">
                     <div class="flex flex-row items-center">
                         <div class="w-1/2">
-                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI"
-                                class="h-auto max-w-full md:max-w-lg">
+                            <img src="{{ asset('img/SIPD RI.png') }}" alt="SIPD RI" class="h-auto max-w-full md:max-w-lg">
                         </div>
                         <div>
                             <p class="mb-4">
@@ -218,10 +200,9 @@
                                 berdasarkan data dan informasi yang tersedia.
                             </p>
 
-                            <a href="#"
-                                class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                            <a href="#" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
                                 Buka Portal
-                                <i class="fas fa-arrow-right ml-2"></i>
+                                <i class="ml-2 fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -233,15 +214,14 @@
     </div>
 
     <!-- Pengelolaan Keuangan Section -->
-    <div class="flex flex-col md:flex-row items-center mb-8">
-        <div class="md:w-1/2 order-last md:order-first md:pr-8">
-            <h2 class="text-2xl font-bold mb-2">Pengelolaan Keuangan</h2>
+    <div class="flex flex-col items-center mb-8 md:flex-row">
+        <div class="order-last md:w-1/2 md:order-first md:pr-8">
+            <h2 class="mb-2 text-2xl font-bold">Pengelolaan Keuangan</h2>
             <p class="mb-4">SIPD (Sistem Informasi Pemerintahan Daerah) adalah aplikasi yang dirilis oleh
                 Kementerian Dalam Negeri dan Pemerintah Provinsi Jawa Barat untuk menghimpun proses pengelolaan
                 keuangan perangkat daerah dimulai dari perencanaan dan penganggaran sampai ke pelaporan keuangan.
             </p>
-            <a href="#" class="text-green-600 font-semibold flex items-center">Masuk platform <i
-                    class="fas fa-arrow-right ml-2"></i></a>
+            <a href="#" class="flex items-center font-semibold text-green-600">Masuk platform <i class="ml-2 fas fa-arrow-right"></i></a>
         </div>
         <div class="md:w-1/2">
             <img src="{{ asset('img/monitoring.png') }}" alt="Pengelolaan Keuangan" class="w-full h-auto">
@@ -249,27 +229,72 @@
     </div>
 
     <!-- Monitoring Evaluasi dan Pengendalian Section -->
-    <div class="flex flex-col md:flex-row items-center mb-8">
+    <div class="flex flex-col items-center mb-8 md:flex-row">
         <div class="md:w-1/2">
-            <img src="{{ asset('img/pengelolaan.png') }}" alt="Monitoring Evaluasi dan Pengendalian"
-                class="w-full h-auto">
+            <img src="{{ asset('img/pengelolaan.png') }}" alt="Monitoring Evaluasi dan Pengendalian" class="w-full h-auto">
         </div>
         <div class="md:w-1/2 md:pl-8">
-            <h2 class="text-2xl font-bold mb-2">Monitoring Evaluasi dan Pengendalian</h2>
+            <h2 class="mb-2 text-2xl font-bold">Monitoring Evaluasi dan Pengendalian</h2>
             <p class="mb-4">e-Monev adalah instrumen elektronik untuk mengendalikan dan mengevaluasi rencana
                 pembangunan Provinsi Jawa Barat secara real-time. Diterapkan di seluruh perangkat daerah, e-Monev
                 membantu memastikan program yang efisien, penggunaan anggaran yang tepat, dan pengambilan keputusan
                 strategis berdasarkan data yang akurat.</p>
-            <a href="#" class="text-green-600 font-semibold flex items-center">Mulai akses <i
-                    class="fas fa-arrow-right ml-2"></i></a>
+            <a href="#" class="flex items-center font-semibold text-green-600">Mulai akses <i class="ml-2 fas fa-arrow-right"></i></a>
         </div>
     </div>
     </div>
 
-
-
+    <!-- Akses Layanan -->
+    <div class="flex flex-wrap py-8 bg-white">
+        <div class="w-full px-4 pt-6 text-center md:w-4/12">
+            <div class="relative flex flex-col w-full h-full mb-8">
+                <div class="flex-auto px-4 py-5">
+                <img src="{{ asset('img/konten1.jpeg') }}"  class="absolute inset-0 object-cover w-full h-full konten1">
+                    <div class="absolute p-4 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg card top-1/2 left-1/2">
+                        <p class="mt-2 mb-4 text-gray-600">
+                            Transformasi Digital dalam Penyaluran Bantuan Keuangan, Memudahkan sampai Pelaporan dari Provinsi Jawa Barat ke Seluruh Kabupaten/Kota di Wilayahnya.
+                        </p>
+                        <span class="cursor-pointer text-custom-green read-more hover:text-green-700">
+                            Read More
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full px-4 pt-6 text-center md:w-4/12">
+            <div class="relative flex flex-col w-full h-full mb-8">
+                <div class="flex-auto px-4 py-5">
+                    <img src="{{ asset('img/konten1.jpeg') }}"  class="absolute inset-0 object-cover w-full h-full konten1">
+                    <div class="absolute p-4 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg card top-1/2 left-1/2">
+                        <p class="mt-2 mb-4 text-gray-600">
+                            Solusi Terintegrasi untuk Proses Permohonan Pencairan, Pemantauan, dan Pelaporan Bantuan Hibah Bansos Provinsi Jawa Barat
+                        </p>
+                        <span class="cursor-pointer text-custom-green read-more hover:text-green-700">
+                            Read More
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full px-4 pt-6 text-center md:w-4/12">
+            <div class="relative flex flex-col w-full h-full mb-8">
+                <div class="flex-auto px-4 py-5">
+                    <img src="{{ asset('img/konten1.jpeg') }}"  class="absolute inset-0 object-cover w-full h-full konten1">
+                    <div class="absolute p-4 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg card top-1/2 left-1/2">
+                        <p class="mt-2 mb-4 text-gray-600">
+                            Terobosan Revolusioner Efisiensi Monitoring, Evaluasi, dan Pengendalian untuk Pembangunan Jawa Barat
+                        </p>
+                        <span class="cursor-pointer text-custom-green read-more hover:text-green-700">
+                            Read More
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer Section -->
-    <footer class="bg-green-800 text-white py-8">
+    <footer class="py-8 text-white bg-green-800">
         <div class="container mx-auto text-center">
             <div class="flex items-center justify-center">
                 <img src="{{ asset('img/logo_footer.png') }}" alt="Logo_footer" class="h-12">
@@ -278,7 +303,7 @@
             <div class="flex flex-col items-center">
                 <p class="text-sm">Jabar Command Center (Gedung Setda B Lt. II) Jalan Diponegoro Nomor 22 Bandung Jawa
                     Barat 40115</p>
-                <div class="flex space-x-4 mt-4">
+                <div class="flex mt-4 space-x-4">
                     <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-facebook"></i></a>
                     <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-youtube"></i></a>

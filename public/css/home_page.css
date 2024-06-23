@@ -3,6 +3,7 @@ body
   overflow-x: hidden;
 }
 
+/* swiper */
 .swiper-container 
 {
   width: 110%;
@@ -25,6 +26,7 @@ body
   z-index: 10;
 }
 
+/* slider */
 .slider-container 
 {
   position: absolute;
@@ -41,3 +43,35 @@ body
   display: block;
 }
 
+/* card akses layanan */
+.konten1 {
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  min-height: 300px; 
+  object-fit: cover; 
+}
+
+.card {
+  z-index: 1; 
+  width: 80%; 
+  max-width: 300px; 
+  margin-top: 250px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #388E3C;
+}
+
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #1B5E20; 
+  color: #FFFFFF; 
+  padding: 20px 0; 
+  text-align: center;
+}
