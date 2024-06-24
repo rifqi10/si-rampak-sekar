@@ -51,46 +51,49 @@ body
   min-height: 300px;
 }
 
-.card {
+.card 
+{
   z-index: 1;
   width: 80%;
   max-width: 300px;
-  margin: 100 auto; /* Center horizontally */
+  margin: 100 auto;
   position: relative;
-  top: 50%; /* Adjust based on your layout needs */
-  transform: translateY(30%); /* Center vertically */
+  margin-top: 50px;
+  transform: translateY(30%); 
   transform: translateX(-50%);
-  padding: 1rem;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.read-more {
+.read-more 
+{
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
   color: #388E3C;
 }
 
-
-
 /* kolaborator */
-.logo {
+.logo 
+{
   max-width: 300px;
   height: auto;
 }
 
-.flex {
+.flex 
+{
   flex-wrap: wrap;
 }
 
-.space-x-8 > * + * {
+.space-x-8 > * + * 
+{
   margin-left: 2rem;
 }
 
 /* footer */
-footer {
+footer 
+{
   position: relative;
   width: 100%;
   background-color: #1B5E20; 
